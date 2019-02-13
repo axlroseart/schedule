@@ -1,0 +1,88 @@
+{
+  "name": "schedule",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "element-theme": "^2.0.1",
+    "element-ui": "^2.4.11",
+    "lodash": "^4.17.11",
+    "stylus": "^0.54.5",
+    "vue": "^2.5.21",
+    "vue-cropper": "^0.4.8",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "element-theme-chalk": "^2.4.11",
+    "es6-promise": "^4.2.5",
+    "eslint": "^5.8.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "es6": true,
+      "browser": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "globals": {
+      "ICsocket": false,
+      "Howl": false
+    },
+    "rules": {
+      "arrow-parens": 0,
+      "generator-star-spacing": 0,
+      "space-before-function-paren": [
+        "error",
+        "never"
+      ],
+      "no-console": "off",
+      "no-new": 0,
+      "no-global-assign": [
+        "error"
+      ],
+      "vue/no-parsing-error": [
+        0,
+        {
+          "x-invalid-end-tag": false,
+          "duplicate-attribute": false
+        }
+      ],
+      "vue/valid-v-for": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "eslintIgnore": [
+    ""
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
